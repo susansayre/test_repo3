@@ -1,6 +1,8 @@
 *Here are some stata commands
 use my_data
 
-summarize my_data
+summarize
 
-plot my_data
+plot x y
+
+reg y x
